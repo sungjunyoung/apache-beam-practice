@@ -1,18 +1,11 @@
 package sungjunyoung.github.io;
 
 import org.apache.beam.sdk.Pipeline;
-import org.apache.beam.sdk.coders.TextualIntegerCoder;
 import org.apache.beam.sdk.io.TextIO;
 import org.apache.beam.sdk.options.PipelineOptions;
 import org.apache.beam.sdk.options.PipelineOptionsFactory;
 import org.apache.beam.sdk.transforms.*;
-import org.apache.beam.sdk.values.PCollection;
 import org.apache.beam.sdk.values.KV;
-
-import javax.xml.soap.Text;
-import java.sql.ResultSet;
-import java.sql.Timestamp;
-import java.util.ArrayList;
 
 
 public class SimpleWordCount {
